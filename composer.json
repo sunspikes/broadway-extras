@@ -1,0 +1,27 @@
+{
+    "name": "sunspikes/broadway-extras",
+    "description": "Extras for broadway CQRS / event sourcing library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krishnaprasad MG",
+            "email": "sunspikes@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=7.0",
+        "broadway/broadway": "^2.0",
+        "broadway/snapshotting": "^0.3.0",
+        "broadway/broadway-saga": "^1.0",
+        "aws/aws-sdk-php": "^3.0",
+        "doctrine/cache": "^1.8",
+        "doctrine/dbal": "^2.7"
+    },
+    "autoload": {
+      "psr-4": {
+        "Sunspikes\\Broadway\\": "src/"
+      }
+    }
+}
